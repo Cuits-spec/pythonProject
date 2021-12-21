@@ -1,0 +1,9 @@
+common:通用配置，封装公共方法
+config:配置文件，保存不变的东西
+data:测试数据
+logs:日志存放
+report:测试报告
+testcase:测试用例
+utils:工具类包
+pytest.ini:pytest配置文件
+run.py:运行文件

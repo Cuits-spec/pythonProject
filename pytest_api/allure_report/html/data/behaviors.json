@@ -1,0 +1,73 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_read[case_info0]",
+    "uid" : "c89cb5ff0b9d423e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640093843835,
+      "stop" : 1640093844102,
+      "duration" : 267
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'url': 'http://appdev.api.versa-ai.com/user/auth/mobileAccount', 'method': 'POST', 'data': \"{'appSource': 'appstore', 'appVersion': '5.2.2', 'appkey':'test', 'clientType': 'app', 'countryCode': 'CN',\\n            'deviceId': '0D6E3B76-0820-47D0-8295-FB689642B430', 'idfa': '90848FCF-53AD-4AA7-BCCB-FF7194338185',\\n            'isoCode': '86', 'lang': 'zh-cn', 'mnet': 'wifi', 'mobileNo': '15137610001', 'mobileType': 'iPhone12,1',\\n            'mobileTypeCode': 'iPhone12,1', 'osType': 'iOS', 'osVersion': '14.6', 'password': '123456',\\n            'sign': '3B6A5C20C911A0345E27A68F4E70CFD6', 'timestamp': '1635333153917'}\", 'status_code': 200, 'expect': \"{'responseCode': '0000', 'responseMsg': '成功', 'result': {'uid': '519940105613135872', 'registerTime': 1614939381199, 'avatar': '', 'nickname': '151****0001', 'userToken': 'VR2ybZoXQNWzUPSnW7AnkQ', 'mobileIsoCode': '86', 'mobileNo': '15137610001', 'praiseCount': 0, 'followCount': 2, 'fansCount': 0, 'workCount': 5, 'isFollow': False, 'following': 0, 'isPasswordSet': True, 'status': 1, 'unreadMessageCount': 0, 'countryCode': 'CN', 'isVip': 1, 'vipExpireDate': 1743955199000}, 'success': True}\"}" ]
+  }, {
+    "name" : "test_read[case_info1]",
+    "uid" : "547a4a97efb67634",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640093844105,
+      "stop" : 1640093844123,
+      "duration" : 18
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'url': 'http://appdev.api.versa-ai.com/user/auth/mobileAccount', 'method': 'POST', 'data': \" {'appSource': 'appstore','appVersion': '5.2.2','clientType': 'app','countryCode': 'CN','deviceId': '0D6E3B76-0820-47D0-8295-FB689642B430','idfa': '90848FCF-53AD-4AA7-BCCB-FF7194338185','isoCode': '86','lang': 'zh-cn','mnet': 'wifi','mobileNo': '15137610001','mobileType': 'iPhone12,1','mobileTypeCode': 'iPhone12,1','osType': 'iOS','osVersion': '14.6','password': '123456','sign': '3B6A5C20C911A0345E27A68F4E70CFD6','timestamp': '1635333153917'}\", 'status_code': 400, 'expect': '{\"errorMsg\": \"缺少必须参数appkey\",\"errorCode\": \"10\"}'}" ]
+  }, {
+    "name" : "test_read[case_info2]",
+    "uid" : "7f102993f7e24a78",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640093844125,
+      "stop" : 1640093844145,
+      "duration" : 20
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'url': 'http://appdev.api.versa-ai.com/user/auth/mobileAccount', 'method': 'POST', 'data': \" {'appSource': 'appstore','appVersion': '5.2.2','appkey': 'test','clientType': 'app','countryCode': 'CN','deviceId': '0D6E3B76-0820-47D0-8295-FB689642B430','idfa': '90848FCF-53AD-4AA7-BCCB-FF7194338185','isoCode': '86','lang': 'zh-cn','mnet': 'wifi','mobileNo': '15137610001','mobileType': 'iPhone12,1','mobileTypeCode': 'iPhone12,1','osType': 'iOS','osVersion': '14.6','password': '123456','timestamp': '1635333153917'}\", 'status_code': 400, 'expect': \"{'responseCode': '10', 'responseMsg': '缺少必须参数sign', 'success': False}\"}" ]
+  }, {
+    "name" : "test_read[case_info3]",
+    "uid" : "df2f6ff8a400d698",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640093844148,
+      "stop" : 1640093844167,
+      "duration" : 19
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'url': 'http://appdev.api.versa-ai.com/user/auth/mobileAccount', 'method': 'POST', 'data': \" {'appSource': 'appstore','appVersion': '5.2.2','appkey': 'test','clientType': 'app','countryCode': 'CN','idfa': '90848FCF-53AD-4AA7-BCCB-FF7194338185','isoCode': '86','lang': 'zh-cn','mnet': 'wifi','mobileNo': '15137610001','mobileType': 'iPhone12,1','mobileTypeCode': 'iPhone12,1','osType': 'iOS','osVersion': '14.6','password': '123456','sign': '3B6A5C20C911A0345E27A68F4E70CFD6','timestamp': '1635333153917'}\", 'status_code': 400, 'expect': \"{'responseCode': '30', 'responseMsg': '签名错误', 'success': False}\"}" ]
+  } ]
+}

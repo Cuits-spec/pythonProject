@@ -1,0 +1,57 @@
+{
+  "uid" : "7f102993f7e24a78",
+  "name" : "test_read[case_info2]",
+  "fullName" : "run#test_read",
+  "historyId" : "c2420952213a1ca0e09aa7e6212bc5bf",
+  "time" : {
+    "start" : 1640093844125,
+    "stop" : 1640093844145,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "run"
+  }, {
+    "name" : "host",
+    "value" : "KdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "7003-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "run"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_info",
+    "value" : "{'url': 'http://appdev.api.versa-ai.com/user/auth/mobileAccount', 'method': 'POST', 'data': \" {'appSource': 'appstore','appVersion': '5.2.2','appkey': 'test','clientType': 'app','countryCode': 'CN','deviceId': '0D6E3B76-0820-47D0-8295-FB689642B430','idfa': '90848FCF-53AD-4AA7-BCCB-FF7194338185','isoCode': '86','lang': 'zh-cn','mnet': 'wifi','mobileNo': '15137610001','mobileType': 'iPhone12,1','mobileTypeCode': 'iPhone12,1','osType': 'iOS','osVersion': '14.6','password': '123456','timestamp': '1635333153917'}\", 'status_code': 400, 'expect': \"{'responseCode': '10', 'responseMsg': '缺少必须参数sign', 'success': False}\"}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f102993f7e24a78.json",
+  "parameterValues" : [ "{'url': 'http://appdev.api.versa-ai.com/user/auth/mobileAccount', 'method': 'POST', 'data': \" {'appSource': 'appstore','appVersion': '5.2.2','appkey': 'test','clientType': 'app','countryCode': 'CN','deviceId': '0D6E3B76-0820-47D0-8295-FB689642B430','idfa': '90848FCF-53AD-4AA7-BCCB-FF7194338185','isoCode': '86','lang': 'zh-cn','mnet': 'wifi','mobileNo': '15137610001','mobileType': 'iPhone12,1','mobileTypeCode': 'iPhone12,1','osType': 'iOS','osVersion': '14.6','password': '123456','timestamp': '1635333153917'}\", 'status_code': 400, 'expect': \"{'responseCode': '10', 'responseMsg': '缺少必须参数sign', 'success': False}\"}" ]
+}
