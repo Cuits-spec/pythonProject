@@ -1,5 +1,4 @@
 import requests
-import json
 import pytest
 
 def login_token():
@@ -67,7 +66,7 @@ class HttpRequest:
                 print('api请求方式暂不支持')
 
 
-from read_excel import read_data
+from Practice.common.read_excel import read_data
 
 cases = read_data('../test_api/Excelread/test_api.xlsx', 'Sheet2')
 # print(type(cases))

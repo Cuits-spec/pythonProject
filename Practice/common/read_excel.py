@@ -1,7 +1,7 @@
 import openpyxl
 
 # 打开工作簿
-workbook = openpyxl.load_workbook('../test_api/Excelread/test_api.xlsx')
+workbook = openpyxl.load_workbook('../../test_api/Excelread/test_api.xlsx')
 ws = workbook.active
 # 获取表单
 sheet = workbook['Sheet1']
